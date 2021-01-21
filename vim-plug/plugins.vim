@@ -12,6 +12,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'sheerun/vim-polyglot'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
+    " Easy motion
+    Plug 'easymotion/vim-easymotion'
     " Themes
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     " JavaScript Syntax Highlight
