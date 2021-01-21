@@ -16,8 +16,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'easymotion/vim-easymotion'
     " Themes
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+    Plug 'morhetz/gruvbox'
     " JavaScript Syntax Highlight
     Plug 'pangloss/vim-javascript'
+    " TypeScript Syntax Highlight
+    " Plug 'leafgarland/typescript-vim'
+    Plug 'HerringtonDarkholme/yats.vim'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', { 'branch': 'release' }
     " Airline
