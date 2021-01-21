@@ -19,10 +19,6 @@ nmap <Leader>q :q<CR>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
-" Easy CAPS
-inoremap <c-u> <ESC>viwUi
-nnoremap <c-u> viwU<Esc>
-
 " Create a new line with <CR>
 nmap <CR> o<Esc>
 

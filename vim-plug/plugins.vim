@@ -17,7 +17,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " JavaScript Syntax Highlight
     Plug 'pangloss/vim-javascript'
     " Stable version of coc
-    Plug 'neoclide/coc.nvim', { 'branch': 'release' } 
+    Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
 call plug#end()
 
