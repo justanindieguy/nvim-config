@@ -13,7 +13,8 @@ if exists('g:vscode')
   source $HOME/.config/nvim/vscode/settings.vim
 else
   " source $HOME/.config/nvim/themes/material-palenight.vim
-  source $HOME/.config/nvim/themes/gruvbox.vim
+  " source $HOME/.config/nvim/themes/gruvbox.vim
+  source $HOME/.config/nvim/themes/tokyonight.vim
   source $HOME/.config/nvim/themes/airline.vim
   source $HOME/.config/nvim/plug-config/coc.vim
   source $HOME/.config/nvim/plug-config/signify.vim

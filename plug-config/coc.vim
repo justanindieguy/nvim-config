@@ -17,9 +17,14 @@ set shortmess+=c
 
 let g:coc_global_extensions = [
   \ 'coc-snippets',
+  \ 'coc-python',
   \ 'coc-pairs',
+  \ 'coc-angular',
   \ 'coc-tsserver',
   \ 'coc-eslint',
+  \ 'coc-html',
+  \ 'coc-css',
+  \ 'coc-emmet',
   \ 'coc-prettier',
   \ 'coc-json'
   \ ]
