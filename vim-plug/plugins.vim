@@ -8,20 +8,20 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
+    " Better syntax support
+    Plug 'sheerun/vim-polyglot'    
+    " TypeScript syntax
+    Plug 'HerringtonDarkholme/yats.vim'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
+    " Rainbow brackets
+    Plug 'luochen1990/rainbow'
     " Easy motion
     Plug 'easymotion/vim-easymotion'
     " Themes
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     Plug 'morhetz/gruvbox'
     Plug 'ghifarit53/tokyonight-vim'
-    " JavaScript Syntax Highlight
-    Plug 'pangloss/vim-javascript'
-    " TypeScript Syntax Highlight
-    Plug 'HerringtonDarkholme/yats.vim'
     " Stable version of coc
     Plug 'neoclide/coc.nvim', { 'branch': 'release' }
     " Airline

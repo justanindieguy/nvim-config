@@ -16,6 +16,7 @@ set updatetime=300
 set shortmess+=c
 
 let g:coc_global_extensions = [
+  \ 'coc-highlight',
   \ 'coc-snippets',
   \ 'coc-python',
   \ 'coc-pairs',
