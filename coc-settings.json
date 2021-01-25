@@ -1,5 +1,8 @@
 {
   "suggest.noselect": false,
+  "prettier.printWidth": 79,
+  "prettier.tabWidth": 2,
+  "prettier.singleQuote": true,
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
     "typescript",
