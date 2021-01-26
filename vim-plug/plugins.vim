@@ -18,6 +18,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'luochen1990/rainbow'
     " Easy motion
     Plug 'easymotion/vim-easymotion'
+    " Vim surround
+    Plug 'tpope/vim-surround'
     " Themes
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     Plug 'morhetz/gruvbox'
