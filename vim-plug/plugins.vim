@@ -17,7 +17,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Rainbow brackets
     Plug 'luochen1990/rainbow'
     " Easy motion
-    Plug 'easymotion/vim-easymotion'
+    Plug 'asvetliakov/vim-easymotion'
     " Vim surround
     Plug 'tpope/vim-surround'
     " Themes
